@@ -38,7 +38,7 @@ function winner()
 {
   if(checkmove(1,2,3,sign) || checkmove(4,5,6,sign) || checkmove(7,8,9, sign) ||
       checkmove(1,4,7,sign) || checkmove(2,5,8,sign) || checkmove(3,6,9,sign) ||
-      checkmove(1,5,9,sign) || checkmove(3,5,6,sign))
+      checkmove(1,5,9,sign) || checkmove(3,5,7,sign))
       {
         display.innerHTML="<font size='5'><b>"+sign+ " Wins</b>";
         for(let i=1;i<=9;i++)
@@ -58,6 +58,7 @@ function winner()
          }
       }
 }
+
   
   
   
